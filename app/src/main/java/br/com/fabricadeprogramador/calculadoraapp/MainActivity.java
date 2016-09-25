@@ -112,10 +112,11 @@ public class MainActivity extends AppCompatActivity {
                     Double n2 = new Double(numero2);
                     if(n1 == 0){
                         Toast.makeText(MainActivity.this,"O primeiro valor não pode ser 0 ;,)",Toast.LENGTH_SHORT).show();
-                    }
-                    Double divi = n1/n2;
+                    }else {
+                        Double divi = n1 / n2;
 
-                    Toast.makeText(MainActivity.this,"O resultado da divisão é "+divi,Toast.LENGTH_SHORT).show();
+                        Toast.makeText(MainActivity.this, "O resultado da divisão é " + divi, Toast.LENGTH_SHORT).show();
+                    }
                 }
 
             }
